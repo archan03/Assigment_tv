@@ -185,6 +185,7 @@ font-family: Roboto;
     font-size: 16px;
     width: 240px;
     background: #FFFFFF;
+
 }
 
 .container_sidebar .sidebar{
@@ -192,7 +193,6 @@ font-family: Roboto;
     padding-right:25px;
     padding-top: 25px;
     padding-left: 30px;
-    position: sticky;
 }
 .container_sidebar .sidebar .active{
     background-color: #FFF3F4;
@@ -224,9 +224,11 @@ font-family: Roboto;
 .container_dash{
     padding-left: 48px;
     padding-top: 15px;
-    /* width: 100px; */
 }
+.container_dash .dash{
 
+    margin-right: 10px;
+}
 .container_dash .dashboard_title h1{
     font-size: 30px;
 }
@@ -234,18 +236,18 @@ font-family: Roboto;
 .container_dash .company_info{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    
 }
 
 .container_dash .company_info .company_items{
     justify-items: center;
-    align-items: center;
     width: 200px;
     height: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 0 10px 0 10px;
 }
 .container_dash .company_info .company_items img{
@@ -307,29 +309,23 @@ font-family: Roboto;
 }
 .container_dash .dash_chart .item2{
     background-color: #FFFFFF;
-    padding: 10px 10px 35px 29px;
-    margin-left: 40px;
+    padding: 10px 29px 35px 29px;
+    margin-left: 30px;
+}
+.container_dash .dash_chart .item2 h3{
+    color: #3E3E3E ;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: left;
+}
+.container_dash .dash_chart .item2 .chart{
+    text-align: center;
 }
 
-.container_dash .dash_chart .item2 .country{
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    grid-column-gap: 45px;
-
-}
-
-
-.container_dash .dash_chart .item2 .country .cou_item img{
-    height:30px;
-    
-}
-
-.container_dash .dash_chart .item2 .country .cou_item span{
-    padding-top: -10px;
+.container_dash .dash_chart .item2 .country ul{
     font-size: 15px;
     font-weight: lighter;
-    
+    columns: 2;
 }
 
 
