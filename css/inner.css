@@ -1,8 +1,11 @@
 body{
+    font-family: Roboto;
+}
+.inner_container{
     background-color: #FAFAFA;
     margin: 0;
     padding: 0;
-font-family: Roboto;
+    font-family: Roboto;
 }
 .container_1{
     margin: 0;
@@ -139,6 +142,56 @@ font-family: Roboto;
 }
 
 /* inner */
-{
-    
+.inner{
+    padding:10px 48px 10px 48px;
+    width: 100%;
 }
+.inner h1{
+    font-size: 30px;
+}
+.inner .form{
+    background-color: #FFFFFF;
+}
+.inner .form .form_in h3{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.inner .form .form_in{
+    padding:22px 29px 22px 29px;
+}
+.inner .form .form_in div{
+    margin-bottom: 45px;
+}
+
+.inner .form .form_in .box{
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 0px 20px 0 20px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: #3c3c3c;
+    font-weight: lighter;
+    outline:none;
+}
+.inner .form .form_in .box::placeholder{
+    color: #ADADAD;
+}
+.inner .form .form_in .box1{
+    width: 100%;
+    height: 49px;
+}
+.inner .form .form_in .bigbox{
+    height: 130px;
+    width: 100%;
+    padding: 15px 20px 0 20px;
+}
+.inner .form .form_in .col2{
+    columns: 2;
+}
+
+
