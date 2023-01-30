@@ -522,6 +522,9 @@ body{
     position:relative;
     margin-bottom: 25px;
   }
+  .col3 .red{
+    border: 1px solid #C8242F !important;
+  }
 
   .inner .form .col3 input[type="text"] {
     border: 1px solid #ADADAD;
@@ -668,10 +671,15 @@ body{
     box-shadow: none;  
     box-sizing: border-box;
   }
-
+.col4 .red{
+    border: 1px solid #C8242F !important; 
+}
+.col4 .redp{
+    color: #C8242F;
+}
 .inner .form .col4 input:focus + .Designation{
     font-size: 13px;
-    color: #ADADAD;
+    color: #C8242F;
     top: -8px;
     left:10px;
     background: #FFFFFF;
@@ -679,7 +687,7 @@ body{
   }
   .inner .form .col4 input:valid + .Designation{
     font-size: 13px;
-    color: #ADADAD;
+    color: #C8242F;
     top: -8px;
     left:10px;
     background: #FFFFFF;
@@ -688,7 +696,7 @@ body{
   .inner .form .col4 .Designation {
     font-family:arial;
     font-size:13px;
-    color: #ADADAD;
+    color: #C8242F;
     padding: 15px;
     position: absolute;
     top: 0;
@@ -924,6 +932,8 @@ body{
     margin-right: 20px;
     cursor: pointer;
     color: #C8242F;
+    transition: all 0.4s ease-out;
+    
    }
    .col6 .active{
     background-color: #C8242F;
@@ -955,6 +965,6 @@ body{
     color: #3E3E3E;
     font-size: 15px;
     align-items: left;
-    letter-spacing: 0px;
+    letter-spacing: 0.3px;
    }
    
