@@ -5,6 +5,7 @@
     <link rel='stylesheet' type='text/css' href='./css/dashboard.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
 </head>
 </head>
 <body>
@@ -62,9 +63,9 @@
                 </a>
             </div>
         </div>
-        <div class="container_dash">
-            <div class="dash">
-                <h1>Dashboard</h1>
+        <div class="container_dash" id="demo">
+            <div class="dashboard_title"><h1>Dashboard</h1></div>
+            
             <div class="company_info">
                 <div class="company_items">
                     <img src="./images/star.svg">
@@ -102,11 +103,10 @@
                     </div>
                 </div>
             </div>
-        </div>
         
             <div class="dash_chart">
                 <div class="item1">
-                    <div class="heading">
+                    <div class="heading" id="demo">
                         <div class="left">Sale</div>
                         <div class="right">
                             <a href="" class="unactive">
@@ -228,5 +228,11 @@
         </div>
     </div>
 </div>
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+</script>
 </body>
 </html>
