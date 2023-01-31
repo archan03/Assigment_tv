@@ -632,11 +632,10 @@ font-family: Roboto;
     }
     
     .container_dash .dash_chart .item1 .heading{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap:60px;
         margin-bottom: 0;
-        position: absolute;
+    width: 100%;
+    position: sticky;
+    left: 0;
     }
     
     .container_dash .dash_chart .item1 .heading .left{
@@ -737,10 +736,10 @@ font-family: Roboto;
         font-size: 10px !important;
     }
     .container_dash .dash_table .nav{
-        position: absolute;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 50px;
+        margin-bottom: 0;
+    width: 100%;
+    position: sticky;
+    left: 0;
     }
     .container_dash .dash_table .In_table{
         margin-top: 50px;
