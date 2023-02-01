@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Inner</title>
     <link rel='stylesheet' type='text/css' href='./css/inner.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 </head>
+
 <body>
     <div class="inner_container">
         <div class="container_1">
@@ -18,7 +20,7 @@
                         <input type="search" id="isearch" name="isearch" class="s_t" placeholder="Search">
                     </div>
                 </div>
-                    <div class="nav_right">
+                <div class="nav_right">
                     <div class="notification"><img src="./images/notification-icon.svg"></div>
                     <div class="profile_pic"><img src="./images/profile.png"></div>
                     <div class="profile">
@@ -31,7 +33,7 @@
         <div class="container2">
             <div class="container_sidebar">
                 <div class="sidebar">
-                    <a href="./dashboard.html" class="unactive" >
+                    <a href="./dashboard.html" class="unactive">
                         <img src="./images/dashboard-default.svg">
                         <span>dashboard</span>
                     </a>
@@ -67,29 +69,28 @@
                     <div class="col1">
                         <h3>One Column</h3>
                         <input type="text" required>
+                        <label class="Name">Name</label>
                         <select name="dropdown" id="dropdown" required>
-                            
+
                             <option value="" disabled selected hidden></option>
                             <option value="d1">Dropdown1</option>
                             <option value="d2">Dropdown2</option>
                             <option value="d3">Dropdown3</option>
                             <option value="d4">Dropdown4</option>
-                        </select>
-                        <textarea type="text"required></textarea>
-    
-    
+                        </select><label class="dropdown">Dropdown</label>
+                        <textarea type="text" required></textarea><label class="textarea">Multiple Lines</label>
                     </div>
                     <h3>Two Column</h3>
                     <div class="col2">
-                        
+
                         <input type="text" required>
-    
-                        
+                        <label class="Name">Name</label>
+
                         <input type="text" required>
-    
+                        <label class="Username">Username</label>
 
                         <input type="password" required>
-    
+                        <label class="password">Password</label>
 
                         <select name="dropdown" id="dropdown" required>
                             <option value="" disabled selected hidden></option>
@@ -98,53 +99,64 @@
                             <option value="d3">Dropdown3</option>
                             <option value="d4">Dropdown4</option>
                         </select>
-    
+                        <label class="dropdown">Select</label>
                     </div>
                     <h3>Three Column</h3>
                     <div class="col3">
-                        <input type="text" class="red"required>
-    
+                        <div class="red"><input type="text" required >
+                        <label class="Name">Focus</label>
+                    </div>
 
-                        <input type="password" required>
-    
-                        
-                        <input type="text" value="Johndoe" disabled>
-    
+                       <div> <input type="password" required>
+                        <label class="password">Password</label></div>
+
+                        <div><input type="text" value="Johndoe" disabled>
+                        <label class="Username">Disabled</label></div>
 
                     </div>
                     <h3>Four Column</h3>
                     <div class="col4">
-                        <div class="c4"><input type="text" class="red" required>
-                            <p class="redp">Enter Valid Data</p>
+                        <div class="c4 red"><input type="text" class="red" required>
+                            <label class="Designation">Designation</label>
+                            <p class="">Enter Valid Data</p>
                         </div>
+
                         <div class="c4"><input type="text" required>
+                            <label class="Name">Name</label>
                             <p>Enter your full Name as per ID</p>
                         </div>
-                        <div class="c4"><input type="text" required></div>
+
+                        <div class="c4"><input type="text" required>
+                            <label class="Username">Username</label>
+                        </div>
+
                         <div><select name="dropdown" id="dropdown" required>
-                            <option value="" disabled selected hidden></option>
-                            <option value="d1">Dropdown1</option>
-                            <option value="d2">Dropdown2</option>
-                            <option value="d3">Dropdown3</option>
-                            <option value="d4">Dropdown4</option>
-                        </select></div>
+                                <option value="" disabled selected hidden></option>
+                                <option value="d1">Dropdown1</option>
+                                <option value="d2">Dropdown2</option>
+                                <option value="d3">Dropdown3</option>
+                                <option value="d4">Dropdown4</option>
+                            </select>
+                            <label class="dropdown">Select</label>
+                        </div>
                     </div>
                     <h3>Other Design Elements</h3>
                     <div class="col5">
                         <h4>File Upload</h4>
                         <div><button><img src="./images/cloud-upload-icon.svg"> Upload</button>
-                        <p>No Item Selected</p></div>
+                            <p>No Item Selected</p>
+                        </div>
                     </div>
                     <div class="col6">
                         <div>
                             <h4>Radio Button</h4>
-                             <input type="radio" name="radio_op" value="op1"><label>Option 1</label> 
-                             <input type="radio" name="radio_op" value="op2"><label>Option 2</label> 
+                            <input type="radio" name="radio_op" value="op1"><label>Option 1</label>
+                            <input type="radio" name="radio_op" value="op2"><label>Option 2</label>
                         </div>
                         <div>
                             <h4>Checkbox</h4>
-                             <input type="checkbox"><label>Option 1</label> 
-                             <input type="checkbox"><label>Option 2</label> 
+                            <input type="checkbox"><label>Option 1</label>
+                            <input type="checkbox"><label>Option 2</label>
                         </div>
                         <h4>Snackbar</h4>
                         <div class="snackbar">
@@ -155,8 +167,8 @@
                         </div>
                         <h4>Call to action</h4>
                         <div class="call">
-                            <a href="./inner.html"><button class="">Primary</button></a>
-                            <a href="./inner.html"><button class="">Secondary</button></a>
+                            <button class="">Primary</button>
+                            <button class="">Secondary</button>
                         </div>
                         <h4>Tabs</h4>
                         <div class="tabs">
@@ -164,7 +176,12 @@
                             <a href="" class="">Tab 2</a>
                             <a href="" class="">Tab 3</a>
                             <hr>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing
                             </p>
                         </div>
                     </div>
@@ -173,4 +190,5 @@
         </div>
     </div>
 </body>
+
 </html>
