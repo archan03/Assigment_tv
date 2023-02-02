@@ -32,7 +32,7 @@
     </div>
     <div class="container2">
         <div class="container_sidebar">
-            <div class="sidebar">
+            <div class="sidebar" id="sidebar">
                 <a href="./dashboard.html" class="active" >
                     <img src="./images/dashboard-active.svg">
                     <span>dashboard</span>
@@ -233,6 +233,13 @@ var w = window.innerWidth;
 var h = window.innerHeight;
 
 var x = document.getElementById("demo");
+function openNav() {
+  document.getElementById("sidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sidenav").style.width = "0";
+}
 </script>
 </body>
 </html>

@@ -5,6 +5,8 @@
     <title>Inner</title>
     <link rel='stylesheet' type='text/css' href='./css/inner.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
 </head>
 </head>
 
@@ -172,9 +174,9 @@
                         </div>
                         <h4>Tabs</h4>
                         <div class="tabs">
-                            <a href="" class="active">Tab 1</a>
-                            <a href="" class="">Tab 2</a>
-                            <a href="" class="">Tab 3</a>
+                            <a onclick="myFunction1()" id="Tab1" class="tab active ">Tab 1</a>
+                            <a onclick="myFunction2()" id="Tab2" class="tab ">Tab 2</a>
+                            <a onclick="myFunction3()" id="Tab3" class="tab ">Tab 3</a>
                             <hr>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -189,6 +191,15 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('a').click(function() {
+                $('a.tab.active').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    
+    </script>
 </body>
 
 </html>

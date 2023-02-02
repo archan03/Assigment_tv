@@ -107,7 +107,7 @@ body{
   font-size: 16px;
   width: 240px;
   background: #FFFFFF;
-
+  display: none;
 }
 
 .container_sidebar .sidebar{
@@ -945,7 +945,10 @@ border: 1px solid #C8242F !important;
       color: #C8242F;
       border-bottom-style: solid;
       border-bottom-width: 3px;
-      
+      cursor: pointer;
+ }
+ .col6 .tabs .tab{
+  cursor: pointer;
  }
  .col6 .tabs p{
   color: #3E3E3E;
@@ -954,3 +957,11 @@ border: 1px solid #C8242F !important;
   letter-spacing: 0px;
  }
  
+
+@media  (min-width: 768px)  {
+  .container_sidebar{display: block !important;}
+}
+/* 
+@media  (min-width: 768px) {
+  .container_sidebar{display: block ;}
+} */
